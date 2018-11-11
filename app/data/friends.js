@@ -1,7 +1,7 @@
 var evilFriends = [
     {
-        "name":"Dr. Evil",
-        "photo":"http://images6.fanpop.com/image/photos/33200000/dr-evil-austin-powers-33220839-480-386.jpg",
+        "name":"Dr. Evil, from Austin Powers",
+        "photo":"https://vignette.wikia.nocookie.net/super-villain/images/9/91/3998596-dr-evil.jpg/revision/latest?cb=20140805055410",
         "scores":[
             3,
             1,
@@ -16,8 +16,8 @@ var evilFriends = [
           ]
     },
     {
-        "name":"Dr. Heinz Doofenshmirtz",
-        "photo":"https://pm1.narvii.com/6341/2a8548bbd0273c6a9ff03e164ff90ca7f34c9d35_hq.jpg",
+        "name":"Dr. Heinz Doofenshmirtz, from Phineas and Ferb",
+        "photo":"https://vignette.wikia.nocookie.net/phineasandferb/images/c/c8/Bake_Sale_Obliterationator.jpg/revision/latest?cb=20131220205934",
         "scores":[
             4,
             1,
@@ -32,7 +32,7 @@ var evilFriends = [
           ]
     },
     {
-        "name":"Trigon",
+        "name":"Trigon, from Teen Titans, Go!",
         "photo":"https://vignette.wikia.nocookie.net/teen-titans-go/images/d/d5/Screen_Shot_2014-02-03_at_11.33.27_AM.png/revision/latest/scale-to-width-down/310?cb=20160827180028",
         "scores":[
             3,
@@ -48,8 +48,8 @@ var evilFriends = [
           ]
     },
     {
-        "name":"The Joker",
-        "photo":"https://upload.wikimedia.org/wikipedia/en/9/98/Joker_%28DC_Comics_character%29.jpg",
+        "name":"The Joker, from The Dark Knight",
+        "photo":"https://vignette.wikia.nocookie.net/marvel_dc/images/5/5d/Doomsday_Clock_Vol_1_5_Textless_Variant.jpg/revision/latest/scale-to-width-down/329?cb=20180606215837",
         "scores":[
             5,
             3,
@@ -64,8 +64,8 @@ var evilFriends = [
           ]
     },
     {
-        "name":"Sith Jar Jar",
-        "photo":"http://i.imgur.com/klaO2Ve.jpg",
+        "name":"Sith Jar Jar, from the Phantom Menace",
+        "photo":"https://www.unilad.co.uk/wp-content/uploads/2017/02/155-jar1.jpg",
         "scores":[
             1,
             5,
@@ -80,8 +80,8 @@ var evilFriends = [
           ]
     },
     {
-        "name":"Jaws",
-        "photo":"http://ichef.bbci.co.uk/wwfeatures/wm/live/1280_640/images/live/p0/2v/gq/p02vgqk9.jpg",
+        "name":"Jaws, from Jaws",
+        "photo":"https://images-na.ssl-images-amazon.com/images/I/412W2F72F3L._SY445_.jpg",
         "scores":[
             2,
             5,
@@ -96,8 +96,8 @@ var evilFriends = [
           ]
     },
     {
-        "name":"Khan Noonian Singh",
-        "photo":"http://images2.fanpop.com/image/photos/13200000/Khan-Noonien-Singh-star-trek-the-movies-13224046-1718-2560.jpg",
+        "name":"Khan Noonian Singh. from Star Trek",
+        "photo":"https://thetrektrek.files.wordpress.com/2012/06/wokkhanshush.jpeg",
         "scores":[
             5,
             2,
@@ -112,8 +112,8 @@ var evilFriends = [
           ]
     },
     {
-        "name":"Freddy Krueger",
-        "photo":"https://bloody-disgusting.com/wp-content/uploads/2017/09/bacon1.jpg",
+        "name":"Freddy Krueger, from A Nightmare on Elm Street",
+        "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Freddy_Krueger.JPG/250px-Freddy_Krueger.JPG",
         "scores":[
             3,
             5,
@@ -128,7 +128,7 @@ var evilFriends = [
           ]
     },
     {
-        "name":"Michael Myers",
+        "name":"Michael Myers, from Halloween",
         "photo":"https://pixel.nymag.com/imgs/daily/vulture/2018/09/19/19-halloween-1.w330.h330.jpg",
         "scores":[
             1,
@@ -144,8 +144,8 @@ var evilFriends = [
           ]
     },
     {
-        "name":"Agent Smith",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name":"Agent Smith, from the Matrix",
+        "photo":"http://pa1.narvii.com/6216/6d5df40045b76d070dbf05959a4de49ec68818a7_00.gif",
         "scores":[
             5,
             5,
