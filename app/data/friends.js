@@ -17,7 +17,7 @@ var evilFriends = [
     },
     {
         "name":"Dr. Heinz Doofenshmirtz, from Phineas and Ferb",
-        "photo":"https://vignette.wikia.nocookie.net/phineasandferb/images/c/c8/Bake_Sale_Obliterationator.jpg/revision/latest?cb=20131220205934",
+        "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Heinz_Doofenshmirtz.png/170px-Heinz_Doofenshmirtz.png",
         "scores":[
             4,
             1,
