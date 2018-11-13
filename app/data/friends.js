@@ -19,15 +19,15 @@ var evilFriends = [
         "name":"Dr. Heinz Doofenshmirtz, from Phineas and Ferb",
         "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Heinz_Doofenshmirtz.png/170px-Heinz_Doofenshmirtz.png",
         "scores":[
-            4,
+            5,
             1,
-            3,
-            4,
             3,
             2,
+            3,
+            5,
             1,
             5,
-            3,
+            1,
             1
           ]
     },
@@ -36,15 +36,15 @@ var evilFriends = [
         "photo":"https://vignette.wikia.nocookie.net/teen-titans-go/images/d/d5/Screen_Shot_2014-02-03_at_11.33.27_AM.png/revision/latest/scale-to-width-down/310?cb=20160827180028",
         "scores":[
             3,
-            5,
-            5,
+            3,
+            3,
             4,
             4,
             3,
             3,
             1,
             3,
-            1
+            3
           ]
     },
     {
@@ -52,7 +52,7 @@ var evilFriends = [
         "photo":"https://vignette.wikia.nocookie.net/marvel_dc/images/5/5d/Doomsday_Clock_Vol_1_5_Textless_Variant.jpg/revision/latest/scale-to-width-down/329?cb=20180606215837",
         "scores":[
             5,
-            3,
+            1,
             5,
             1,
             5,
@@ -70,13 +70,13 @@ var evilFriends = [
             1,
             5,
             5,
-            2,
-            4,
+            3,
             5,
             5,
             1,
-            2,
-            5
+            1,
+            5,
+            3
           ]
     },
     {
@@ -91,7 +91,7 @@ var evilFriends = [
             1,
             1,
             1,
-            5,
+            1,
             1
           ]
     },
@@ -124,7 +124,7 @@ var evilFriends = [
             1,
             1,
             5,
-            5
+            4
           ]
     },
     {
@@ -156,7 +156,7 @@ var evilFriends = [
             3,
             1,
             4,
-            1
+            5
           ]
     }
 
