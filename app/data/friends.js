@@ -35,16 +35,16 @@ var evilFriends = [
         "name":"Trigon, from Teen Titans, Go!",
         "photo":"https://vignette.wikia.nocookie.net/teen-titans-go/images/d/d5/Screen_Shot_2014-02-03_at_11.33.27_AM.png/revision/latest/scale-to-width-down/310?cb=20160827180028",
         "scores":[
+            1,
             3,
             3,
-            3,
-            4,
+            1,
             4,
             3,
             3,
             1,
-            3,
-            3
+            2,
+            5
           ]
     },
     {
@@ -76,14 +76,14 @@ var evilFriends = [
             1,
             1,
             5,
-            3
+            5
           ]
     },
     {
         "name":"Jaws, from Jaws",
         "photo":"https://images-na.ssl-images-amazon.com/images/I/412W2F72F3L._SY445_.jpg",
         "scores":[
-            2,
+            1,
             5,
             5,
             1,
@@ -115,7 +115,7 @@ var evilFriends = [
         "name":"Freddy Krueger, from A Nightmare on Elm Street",
         "photo":"https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Freddy_Krueger.JPG/250px-Freddy_Krueger.JPG",
         "scores":[
-            3,
+            2,
             5,
             5,
             4,
@@ -124,7 +124,7 @@ var evilFriends = [
             1,
             1,
             5,
-            4
+            5
           ]
     },
     {
@@ -133,7 +133,7 @@ var evilFriends = [
         "scores":[
             1,
             5,
-            5,
+            1,
             1,
             1,
             1,
@@ -148,7 +148,7 @@ var evilFriends = [
         "photo":"http://pa1.narvii.com/6216/6d5df40045b76d070dbf05959a4de49ec68818a7_00.gif",
         "scores":[
             5,
-            5,
+            1,
             3,
             3,
             1,
