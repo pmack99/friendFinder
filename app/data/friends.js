@@ -3,7 +3,7 @@ var evilFriends = [
         "name":"Dr. Evil, from Austin Powers",
         "photo":"https://vignette.wikia.nocookie.net/super-villain/images/9/91/3998596-dr-evil.jpg/revision/latest?cb=20140805055410",
         "scores":[
-            3,
+            5,
             1,
             2,
             5,
@@ -11,7 +11,7 @@ var evilFriends = [
             1,
             5,
             1,
-            5,
+            3,
             5
           ]
     },
@@ -23,7 +23,7 @@ var evilFriends = [
             1,
             3,
             2,
-            3,
+            4,
             5,
             1,
             5,
@@ -36,14 +36,14 @@ var evilFriends = [
         "photo":"https://vignette.wikia.nocookie.net/teen-titans-go/images/d/d5/Screen_Shot_2014-02-03_at_11.33.27_AM.png/revision/latest/scale-to-width-down/310?cb=20160827180028",
         "scores":[
             1,
-            3,
+            5,
             3,
             1,
             4,
             3,
             3,
             1,
-            2,
+            3,
             5
           ]
     },
@@ -85,7 +85,7 @@ var evilFriends = [
         "scores":[
             1,
             5,
-            5,
+            2,
             1,
             1,
             1,
@@ -100,14 +100,14 @@ var evilFriends = [
         "photo":"https://thetrektrek.files.wordpress.com/2012/06/wokkhanshush.jpeg",
         "scores":[
             5,
-            2,
+            3,
             5,
             3,
             4,
             5,
             3,
-            3,
-            3,
+            1,
+            1,
             1
           ]
     },
@@ -147,7 +147,7 @@ var evilFriends = [
         "name":"Agent Smith, from the Matrix",
         "photo":"http://pa1.narvii.com/6216/6d5df40045b76d070dbf05959a4de49ec68818a7_00.gif",
         "scores":[
-            5,
+            4,
             1,
             3,
             3,
