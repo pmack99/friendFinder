@@ -96,7 +96,7 @@ var evilFriends = [
           ]
     },
     {
-        "name":"Khan Noonian Singh. from Star Trek",
+        "name":"Khan Noonian Singh, from Star Trek",
         "photo":"https://thetrektrek.files.wordpress.com/2012/06/wokkhanshush.jpeg",
         "scores":[
             5,

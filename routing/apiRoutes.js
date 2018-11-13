@@ -1,8 +1,7 @@
 // 4. Your `apiRoutes.js` file should contain two routes:
 
 //    * A GET route with the url `/api/friends`. This will be used to display a JSON of all possible friends.
-//    * A POST routes `/api/friends`. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic. 
-
+//    * A POST routes `/api/friends`. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
 
 // ===============================================================================
 // LOAD DATA
@@ -11,7 +10,6 @@
 // ===============================================================================
 
 var friendsData = require("../app/data/friends");
-
 
 // ===============================================================================
 // ROUTING
@@ -28,42 +26,37 @@ module.exports = function(app) {
     res.json(friendsData);
   });
 
-
-  app.post('/api/friends', function(req,res){
-    //grabs the new friend's scores to compare with friends in friendList array
+  app.post("/api/friends", function(req, res) {
+    //grabs the new friend's scores to compare with friends in evilFriends array
     var newFriendScores = req.body.scores;
     var scoresArray = [];
     var bestMatch = 0;
 
     //runs through all current friends in list
-    for(var i=0; i<friendsData.length; i++){
+    for (var i = 0; i < friendsData.length; i++) {
       var scoresDiff = 0;
       //run through scores to compare friends
-      for(var j=0; j<newFriendScores.length; j++){
-        scoresDiff += (Math.abs(parseInt(friendsData[i].scores[j]) - parseInt(newFriendScores[j])));
+      for (var j = 0; j < newFriendScores.length; j++) {
+        scoresDiff += Math.abs(
+          parseInt(friendsData[i].scores[j]) - parseInt(newFriendScores[j])
+        );
       }
-
+      console.log(scoresArray);
       //push results into scoresArray
       scoresArray.push(scoresDiff);
     }
 
     //after all friends are compared, find best match
-    for(var i=0; i<scoresArray.length; i++){
-      if(scoresArray[i] <= scoresArray[bestMatch]){
+    for (var i = 0; i < scoresArray.length; i++) {
+      if (scoresArray[i] <= scoresArray[bestMatch]) {
         bestMatch = i;
       }
     }
 
     //return bestMatch data
     var bff = friendsData[bestMatch];
-     res.json(bff);
+    res.json(bff);
 
-     friendsData.push(req.body);
-
-
-
-});
-}
-
-
-
+    friendsData.push(req.body);
+  });
+};
