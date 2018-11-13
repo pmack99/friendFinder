@@ -50,6 +50,7 @@ module.exports = function(app) {
     for (var i = 0; i < scoresArray.length; i++) {
       if (scoresArray[i] <= scoresArray[bestMatch]) {
         bestMatch = i;
+        console.log(bestMatch);
       }
     }
 
