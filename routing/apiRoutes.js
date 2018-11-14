@@ -41,9 +41,10 @@ module.exports = function(app) {
           parseInt(friendsData[i].scores[j]) - parseInt(newFriendScores[j])
         );
       }
-      console.log(scoresArray);
+      
       //push results into scoresArray
       scoresArray.push(scoresDiff);
+      console.log(scoresArray);
     }
 
     //after all friends are compared, find best match
@@ -57,6 +58,7 @@ module.exports = function(app) {
     //return bestMatch data
     var bff = friendsData[bestMatch];
     res.json(bff);
+    console.log(bff);
 
     friendsData.push(req.body);
   });
