@@ -27,8 +27,8 @@ var evilFriends = [
             5,
             1,
             5,
-            1,
-            1
+            2,
+            3
           ]
     },
     {
@@ -44,7 +44,7 @@ var evilFriends = [
             3,
             1,
             3,
-            5
+            4
           ]
     },
     {
@@ -108,7 +108,7 @@ var evilFriends = [
             3,
             1,
             1,
-            1
+            3
           ]
     },
     {
@@ -147,16 +147,16 @@ var evilFriends = [
         "name":"Agent Smith, from the Matrix",
         "photo":"http://pa1.narvii.com/6216/6d5df40045b76d070dbf05959a4de49ec68818a7_00.gif",
         "scores":[
-            4,
-            1,
-            3,
             3,
             1,
             3,
             3,
             1,
-            4,
-            5
+            3,
+            3,
+            1,
+            3,
+            4
           ]
     }
 

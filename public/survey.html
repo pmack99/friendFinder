@@ -29,25 +29,37 @@
   <body>
     <div class="container">
       <h2>Evil Survey Questions - Which villain is MOST like you???</h2>
-      <hr>
+      <hr />
 
       <div class="row">
         <div class="col-sm-6">
-      <h3><strong>Your Evil Name</strong></h3>
-      <h4>(Required)</h4>
-      <input type="text" id="name" class="form-control" style="width:300px" required />
-      <hr>
+          <h3>Your Evil Name</h3>
+          <h4>(Required)</h4>
+          <input
+            type="text"
+            id="name"
+            class="form-control"
+            style="width:300px"
+            required
+          />
+          <hr />
+        </div>
+        <div class="col-sm-6">
+          <h3>Your Evil Image</h3>
+          <h4>(Link Required)</h4>
+          <input
+            type="text"
+            id="photo"
+            class="form-control"
+            style="width:300px"
+            required
+          />
 
-    </div>
-      <div class="col-sm-6">
-      <h3><strong>Your Evil Image</strong></h3>
-      <h4>(Link Required)</h4>
-      <input type="text" id="photo" class="form-control" style="width:300px" required />
-
-      <hr>
-
-    </div>
-    </div>
+          <hr />
+        </div>
+      </div>
+      <br>
+      
       <div class="row">
         <div class="col-sm-6">
           <h3><strong>Question 1</strong></h3>
@@ -73,9 +85,7 @@
           </select>
 
           <h3><strong>Question 3</strong></h3>
-          <h4>
-            I am relaxed even when there is a "hero" there to fight me.
-          </h4>
+          <h4>I am relaxed even when there is a "hero" there to fight me.</h4>
           <select class="chosen-select" id="q3">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
