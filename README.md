@@ -1,5 +1,3 @@
-# friendFinder
-
 # This homework assignment was to make a "Friend Finder" application. 
 *I themed this app to "Find an "evil genius" finder just to make it fun.*
 
